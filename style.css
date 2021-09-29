@@ -61,11 +61,30 @@ body{
     border: none;
     font-size: large;
     color: white;
-    background: linear-gradient(135deg,#c02425,#f0cb35);
+    background: linear-gradient(135deg,#c02425,#f1efe3);
     padding: 10px;
     margin-top: 50px;
 }
 
 #striker-button:hover{
     box-shadow: 0 0 10px 0 black;
+}
+
+.score{
+    margin: -80px 0 0;
+    font-size: x-large;
+}
+
+.score>span{
+    margin: 0 5px;
+}
+
+
+#result{
+    margin-top: 50px;
+    background: linear-gradient(135deg,#c02425,#f1efe3);
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: bolder;
+    background-clip: text;
 }

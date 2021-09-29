@@ -14,45 +14,46 @@
                 
                      
                        <img class="Profile-icon" src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/Cricket_India_Crest.svg/1200px-Cricket_India_Crest.svg.png" height="150px" width="150px" alt="logo">
-                       <span class="name">India</span>
-                       <div class="row round-runs">
-                       <span class="col">6</span>
-                       <span class="col">0</span>
-                       <span class="col">1</span>
+                       <span class="name" id="team-1-name"></span>
+                       <div class="row round-runs" id="team-1-round-runs">
                        <span class="col">-</span>
-                       <span class="col">w</span>
+                       <span class="col">-</span>
+                       <span class="col">-</span>
+                       <span class="col">-</span>
+                       <span class="col">-</span>
                        <span class="col">-</span>
                    
                        </div>
             </div>
-    <div class="row">
-        <span class="col">8</span>
-        <span class="col">-</span>
-        <span class="col">10</span>
+    <div class="col">
+        <div class="row score">
+        <span id="team-1-score"></span>
+        <span>-</span>
+        <span id="team-2-score"></span>
     </div>
-          
+          </div>
                   <div class="col">
                  
                     <img class="Profile-icon" src="https://s.ndtvimg.com/images/entities/300/sri-lanka-2118.png" height= "150px" width = "150px" alt="logo">
-                    <span class="name">Srilanka</span>     
-                    <div class="row round-runs">
-                 <span class="col">4</span>
-                 <span class="col">0</span>
-                 <span class="col">1</span>
+                    <span class="name" id="team-2-name"></span>     
+                    <div class="row round-runs" id="team-2-round-runs">
                  <span class="col">-</span>
-                 <span class="col">w</span>
+                 <span class="col">-</span>
+                 <span class="col">-</span>
+                 <span class="col">-</span>
+                 <span class="col">-</span>
                  <span class="col">-</span>
                 </div>
               </div>
         </div>       
         <div class="row">
-        <button id="striker-button">strike</button>
+        <button id="striker-button" onclick="ButtonClick()"></button>
     
     </div>
 
 <!--result-->
-    <div class="row"></div>
+    <div class="row" id="result" hidden></div>
     </div>
-    
+    <script src="app.js"></script>
 </body>
 </html>
